@@ -20,3 +20,6 @@ mongoose.connect(conn_str)
 
 const items = require('./routes/api/items');
 app.use('/', items);
+
+const users = require('./routes/api/users');
+app.use('/api/users', users);
