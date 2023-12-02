@@ -83,3 +83,5 @@ userRouter.get("/", auth, async (req, res) => {
         id: user._id,
     });
 });
+
+module.exports = userRouter;
